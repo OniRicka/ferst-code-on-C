@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-#include <unistd.h>
 int main(){
 	char name[20];
-	char password[256];
+	char password[10];
 	while (1){
 		printf("Enter login: ");
 		scanf("%19s", name);
@@ -16,7 +15,7 @@ int main(){
 	}
 	while (1){
 		printf("Enter password: ");
-		scanf("%255s", password);
+		scanf("%9s", password);
 		if(strcmp(password, "root") == 0){
 			break;
 		}
