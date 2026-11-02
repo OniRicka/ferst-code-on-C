@@ -4,3 +4,13 @@
 
 # En
 My first piece of code in C. It’s relatively substantial. I wanted to build my own shell, but for now, I’ve decided to put together this foundation. I’d be happy if you’d like to add something new to it!
+
+## How to build and run / Как собрать и запустить
+
+### Linux / macOS
+gcc main.c -o main
+./my_shell
+
+### Windows (MinGW)
+gcc main.c -o main.exe
+my_shell.exe
