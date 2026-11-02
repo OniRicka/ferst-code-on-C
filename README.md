@@ -9,8 +9,10 @@ My first piece of code in C. It’s relatively substantial. I wanted to build my
 
 ### Linux / macOS
 gcc main.c -o main
+
 ./my_shell
 
 ### Windows (MinGW)
 gcc main.c -o main.exe
+
 my_shell.exe
